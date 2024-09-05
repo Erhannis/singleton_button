@@ -1,10 +1,8 @@
 library singleton_button;
 
 import 'dart:collection';
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class SingletonButtonState {
   static var singletons = HashMap<String, SingletonButtonState>();
